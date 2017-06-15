@@ -1,0 +1,73 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
+ul,li{ list-style:none}
+input,select,textarea{font-size:100%;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:500;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:500;}
+fieldset,img {border:0;}
+.fl{ float:left}
+.fr{ float:right}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+.clearfix { zoom: 1; display: inline-block; _height: 1px }
+*html .clearfix { height: 1% }
+*+html .clearfix { height: 1% }
+.clearfix { display: block }
+
+html{ font-size: 20px; -webkit-text-size-adjust: 100%;}
+.test{width:18.75rem; height:10rem; background: url("../images/2.png"); background-size:18.75rem 10rem; }
+.head{ width:50%; background: #a63939; float: left; position: fixed; top:0; left:0}
+.user_name{width:90%; height: 2.3rem; line-height: 2.3rem; padding: 0 5%; color:#ffac1b; font-size: 0.85rem; font-weight: bold}
+.arrow{ width:90%; height: 0.65rem; line-height: 0.65rem; padding: 0 5%;}
+#left_arr{width:0.7rem; height: 0.65rem; float: left}
+#right_arr{width:0.7rem; height: 0.65rem; float: right}
+.left_arrow{ background: url("../images/left_arrow.png") no-repeat; background-size: 0.7rem 0.65rem;}
+.right_arrow{ background: url("../images/right_arrow.png") no-repeat; background-size: 0.7rem 0.65rem;}
+
+.vip_line{ width:100%; height: 0.2rem; line-height: 0.2rem; background: #ea5252; position: absolute; left:0; top:1.75rem;}
+.vip_rate_small{ width:4.8rem; height: 0.2rem; line-height: 0.2rem; position: absolute; left:0; top:1.76rem; z-index: 4}
+.vip_rate_big{width:100%; height: 0.2rem; line-height: 0.2rem; position: absolute; left:0; top:1.75rem; z-index: 2}
+.vip_rate_small div,.vip_rate_big div{ height: 0.2rem; background: #ffac1b;}
+.href_btn{ width:50%; height: 2.4rem; line-height: 2.4rem; border-bottom: 0.05rem solid #ff9a22; border-top: 0.05rem solid #782929;
+    position: fixed; bottom:0; left:0; background: #a63939;}
+.href_line{ width:0.05rem; height: 2.4rem; background: #782929; position: absolute; top:0; left:50%;}
+.href_btn a{ width:50%; height: 2.4rem; line-height: 2.4rem; display: block; float: left; text-align: center; font-size: 0.75rem;
+    color:#fff; text-decoration: none}
+.vip_info{ width:50%; float: right; overflow-y: auto}
+.vip_con{ width:90%; padding: 1rem 0; margin: auto;}
+.vip_info dl{ display: none}
+.vip_info dl h1{ height: 1.5rem; line-height: 1.5rem; color:#ea5252;  font-size: 0.65rem;}
+.vip_info dl h2{ height: 1.5rem; line-height: 1.5rem; color:#ea5252;  font-size: 0.65rem;}
+.vip_info dl dt{ color:#a63939; font-size: 0.75rem; height: 0.75rem; line-height: 0.95rem; padding-left: 0.8rem;
+    background: url("../images/info_li.png") no-repeat left center; background-size: 0.75rem 0.75rem; margin: 0.8rem 0 0.5rem 0}
+.vip_info dl dd{}
+.vip_info dl dd p{ font-size: 0.65rem; color:#444; line-height: 1rem;}
+.vip_info dl dd span{ font-size: 0.6rem; color:#666;}
+
+.vip_action{ width:100%; height: 4.6rem; position: relative; margin-top: 0.375rem; overflow: hidden}
+.v_ac_warp{ width:16.75rem; height: 4.5rem; line-height: 4.5rem; margin: auto; position: relative;}
+.v_ac{ width:120rem; height:4.5rem; line-height: 4.5rem; position: absolute; top:0; left:0; z-index:3; font-family: "Microsoft YaHei UI"}
+.v_item,.v_item.cur{ width:1.55rem; float: left; margin-right: 4.8rem}
+
+.v_item .v_num{ width:1.45rem; height: 1.45rem; line-height: 1.45rem; text-align: center; border: 0.05rem solid #ea5252;
+    border-radius: 100%; color:#ea5252; margin-top: 0.25rem; margin-bottom: 0.1rem}
+.v_item.cur .v_num{ width:1.45rem; height: 1.45rem; line-height: 1.45rem; text-align: center; border: 0.05rem solid #fff;
+    border-radius: 100%; color:#fff; margin-top: 0.25rem; margin-bottom: 0.1rem}
+.v_item.rank .v_num{ width:1.45rem; height: 1.45rem; line-height: 1.45rem; text-align: center; border: 0.05rem solid #ffac1b;
+    border-radius: 100%; color:#fff;  margin-top: 0.25rem; margin-bottom: 0.1rem; background: #ffac1b}
+.v_item .v_num sub,.v_item.cur .v_num sub,.v_item.rank .v_num sub{ font-size: 0.55rem; padding: 0 0.1rem 0 0; margin: -0.1rem  }
+
+.v_item .v_three{ width:0; height: 0; border-left: 0.35rem solid transparent; border-right: 0.35rem solid transparent;
+    border-top: 0.45rem solid #ea5252; margin: auto}
+.v_item.cur .v_three{ width:0; height: 0; border-left: 0.35rem solid transparent; border-right: 0.35rem solid transparent;
+    border-top: 0.45rem solid #fff; margin: auto}
+.v_item.rank .v_three{ width:0; height: 0; border-left: 0.35rem solid transparent; border-right: 0.35rem solid transparent;
+    border-top: 0.45rem solid #ffac1b; margin: auto}
+.v_item .money{ width:1.55rem; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.75rem; color:#ea5252;}
+.v_item.cur .money{ width:1.55rem; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.75rem; color:#fff;}
+.v_item.rank .money{ width:1.55rem; height: 1rem; line-height: 1rem; text-align: center; font-size: 0.75rem; color:#ffac1b;}
+.rank_margin{ margin-right: 12rem;}
+
+.upgrade{ height: 1.45rem; line-height: 1.45rem; border: 0.06rem solid #ff9a22; display: inline-block; font-size: 0.65rem;
+    position: absolute; color:#ffac1b; padding: 0 0.5rem; border-radius: 0.4rem; top:2.4rem; left:0.3rem;}
+.top_arrow{ width:0.65rem; height: 0.5rem; background: url("../images/top_arrow.png") no-repeat; background-size: 0.65rem 0.5rem;
+    position: absolute; top:-0.5rem; left:1rem;}
+.upgrade em{ font-size: 0.85rem;}
